@@ -39,3 +39,36 @@ body {
     -webkit-text-stroke: 0.001px white;
 }
 
+.tile:nth-child(1) {
+    background-position: 0px 0px;
+}
+.tile:nth-child(2) {
+    background-position: -150px 0px;
+}
+.tile:nth-child(3) {
+    background-position: -300px -0px;
+}
+.tile:nth-child(4) {
+    background-position: 0px -150px;
+}
+.tile:nth-child(5) {
+    background-position: -150px -150px;
+}
+.tile:nth-child(6) {
+    background-position: -300px -150px;
+}
+.tile:nth-child(7) {
+    background-position: 0px -300px;
+}
+.tile:nth-child(8) {
+    background-position: -150px -300px;
+}
+
+.blscreen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
