@@ -72,3 +72,44 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
 }
+.winScreen {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #ced4da;
+    border-radius: 10px;
+    display: flex;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.winScreen > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.WinMessage {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.1em;
+}
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+.buttonGroup {
+    margin: auto;
+}
+.buttonGroup > button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 1.1em;
+    background-color: #40916c;
+    font-weight: bolder;
+    color: white;
+    font-family: "Bruno Ace";
+
+    cursor: pointer;
+}
